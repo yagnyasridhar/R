@@ -1,0 +1,7 @@
+x <- c(76,77,56,98,54)
+#install.packages("plotrix")
+#library(plotrix)
+label = c("maths", "science","social","Tamil", "English")
+#pie3D(x,labels = label,main="Report Card", col=rainbow(length(x)))
+pie(x,labels = label,main="Report Card", col=rainbow(length(x)))
+legend("bottomright", label, cex=0.8, fill=rainbow(length(x)))
